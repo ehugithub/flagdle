@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* html {
+  background-color: darkslategrey;
+} */
+
+
+/* header {
+  width: 100%;
+  padding: 0 0.20em;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+} */
+
+.guessForm button {
+  height: 48px;
+  width: calc(105%);
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  outline: solid 1px white;
+  margin: 10px 1px 1px;
+}
+
+.guessForm button:hover, button:focus {
+  background-color: grey;
+}
