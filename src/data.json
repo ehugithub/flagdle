@@ -1,28 +1,98 @@
 {
     "countries": 
     [
-        {"Code": "AF", "Name": "Afghanistan", "Colours": [{"colour": "green", "hex": "#037b37", "percent": 31.1}, {"colour": "black", "hex": "#050300", "percent": 30.2}, {"colour": "red", "hex": "#d32214", "percent": 20.5}, {"colour": "white", "hex": "#fdf3f2", "percent": 18.2}], "Continent": "Asia"},
-        {"Code": "AX", "Name": "Åland Islands", "Colours": [{"colour": "blue", "hex": "#0053a5", "percent": 55.8}, {"colour": "yellow", "hex": "#ffce00", "percent": 24.4}, {"colour": "red", "hex": "#d31333", "percent": 18.9}], "Continent": "Europe"},
-        {"Code": "AL", "Name": "Albania", "Colours": [{"colour": "red", "hex": "#ff0000", "percent": 86.9}, {"colour": "black", "hex": "#1f0000", "percent": 13.1}], "Continent": "Europe"},
-        {"Code": "DZ", "Name": "Algeria", "Colours": [{"colour": "white", "hex": "#ffffff", "percent": 47.9}, {"colour": "green",  "hex": "#006233", "percent": 46.1}, {"colour": "red", "hex": "#d01136", "percent": 6.0}], "Continent": "Africa"},
-        {"Code": "AS", "Name": "American Samoa", "Colours": [{"colour": "blue", "hex": "#000166", "percent": 50.0}, {"colour": "white",  "hex": "#fdfcfb", "percent": 32.9}, {"colour": "red", "hex": "#bd1120", "percent": 9.9}, {"colour": "brown", "hex": "#462d16", "percent": 6.7}], "Continent": "Oceania"},
-        {"Code": "AD", "Name": "Andorra"},
-        {"Code": "AO", "Name": "Angola"},
-        {"Code": "AI", "Name": "Anguilla"},
-        {"Code": "AQ", "Name": "Antarctica"},
-        {"Code": "AG", "Name": "Antigua and Barbuda"},
-        {"Code": "AR", "Name": "Argentina"},
-        {"Code": "AM", "Name": "Armenia"},
-        {"Code": "AW", "Name": "Aruba"},
-        {"Code": "AU", "Name": "Australia"},
-        {"Code": "AT", "Name": "Austria"},
-        {"Code": "AZ", "Name": "Azerbaijan"},
-        {"Code": "BS", "Name": "Bahamas"},
-        {"Code": "BH", "Name": "Bahrain"},
-        {"Code": "BD", "Name": "Bangladesh"},
-        {"Code": "BB", "Name": "Barbados"},
-        {"Code": "BY", "Name": "Belarus"},
-        {"Code": "BE", "Name": "Belgium"},
+        {"Code": "AF", "Name": "Afghanistan", "Colours": [
+            {"colour": "green", "hex": "#037b37", "percent": 31.1},
+            {"colour": "black", "hex": "#050300", "percent": 30.2},
+            {"colour": "red", "hex": "#d32214", "percent": 20.5},
+            {"colour": "white", "hex": "#fdf3f2", "percent": 18.2}], "Continent": "Asia"},
+        {"Code": "AX", "Name": "Åland Islands", "Colours": [
+            {"colour": "blue", "hex": "#0053a5", "percent": 55.8},
+            {"colour": "yellow", "hex": "#ffce00", "percent": 24.4},
+            {"colour": "red", "hex": "#d31333", "percent": 18.9}], "Continent": "Europe"},
+        {"Code": "AL", "Name": "Albania", "Colours": [
+            {"colour": "red", "hex": "#ff0000", "percent": 86.9},
+            {"colour": "black", "hex": "#1f0000", "percent": 13.1}], "Continent": "Europe"},
+        {"Code": "DZ", "Name": "Algeria", "Colours": [
+            {"colour": "white", "hex": "#ffffff", "percent": 47.9},
+            {"colour": "green",  "hex": "#006233", "percent": 46.1},
+            {"colour": "red", "hex": "#d01136", "percent": 6.0}], "Continent": "Africa"},
+        {"Code": "AS", "Name": "American Samoa", "Colours": [
+            {"colour": "blue", "hex": "#000166", "percent": 50.0},
+            {"colour": "white",  "hex": "#fdfcfb", "percent": 32.9},
+            {"colour": "red", "hex": "#bd1120", "percent": 9.9},
+            {"colour": "brown", "hex": "#462d16", "percent": 7.2}], "Continent": "Oceania"},
+        {"Code": "AD", "Name": "Andorra", "Colours": [
+            {"colour": "red", "hex": "#d0103a", "percent": 33.7},
+            {"colour": "blue", "hex": "#0219a8", "percent": 32.2},
+            {"colour": "yellow", "hex": "#fddd00", "percent": 27.1},
+            {"colour": "brown", "hex": "#b99e6d", "percent": 6.9}], "Continent": "Europe"},
+        {"Code": "AO", "Name": "Angola", "Colours": [
+            {"colour": "red", "hex": "#cc0b2f", "percent": 47.9},
+            {"colour": "black", "hex": "#000000", "percent": 45.6},
+            {"colour": "yellow", "hex": "#fcca08", "percent": 4.4},
+            {"colour": "brown", "hex": "#2f0401", "percent": 2.1}], "Continent": "Africa"},
+        {"Code": "AI", "Name": "Anguilla", "Colours": [
+            {"colour": "blue", "hex": "#052169", "percent": 75.4},
+            {"colour": "white", "hex": "#fafbfb", "percent": 12.7},
+            {"colour": "red", "hex": "#c8122e", "percent": 10.0},
+            {"colour": "orange", "hex": "#ff9c06", "percent": 1.9}], "Continent": "North America"},
+        {"Code": "AQ", "Name": "Antarctica", "Colours": [
+            {"colour": "blue", "hex": "#3b7dce", "percent": 68.2},
+            {"colour": "white", "hex": "#feffff", "percent": 31.8}], "Continent": "Antarctica"},
+        {"Code": "AG", "Name": "Antigua and Barbuda", "Colours": [
+            {"colour": "red", "hex": "#ce1226", "percent": 49.7},
+            {"colour": "black", "hex": "#050300", "percent": 26.3},
+            {"colour": "blue", "hex": "#0072c5", "percent": 11.0},
+            {"colour": "white", "hex": "#fefefe", "percent": 7.6},
+            {"colour": "yellow", "hex": "#f8ce15", "percent": 5.4}], "Continent": "North America"},
+        {"Code": "AR", "Name": "Argentina", "Colours": [
+            {"colour": "blue", "hex": "#75acdf", "percent": 66.0},
+            {"colour": "white", "hex": "#fffffe", "percent": 31.1},
+            {"colour": "brown", "hex": "#dbb37c", "percent": 2.5},
+            {"colour": "orange", "hex": "#f2af0e", "percent": 0.5}], "Continent": "South America"},
+        {"Code": "AM", "Name": "Armenia", "Colours": [
+            {"colour": "blue", "hex": "#0033a0", "percent": 34.0},
+            {"colour": "red", "hex": "#d90012", "percent": 33.0},
+            {"colour": "orange", "hex": "#f2a800", "percent": 33.0}], "Continent": "Asia"},
+        {"Code": "AW", "Name": "Aruba", "Colours": [
+            {"colour": "blue", "hex": "#418fde", "percent": 88.3},
+            {"colour": "yellow", "hex": "#fed102", "percent": 10.0},
+            {"colour": "red", "hex": "#ef3643", "percent": 1.7}], "Continent": "South1 America"},
+        {"Code": "AU", "Name": "Australia", "Colours": [
+            {"colour": "blue", "hex": "#002469", "percent": 79.5},
+            {"colour": "white", "hex": "#f9f9fa", "percent": 11.1},
+            {"colour": "red", "hex": "#e4032c", "percent": 9.2}], "Continent": "Oceania"},
+        {"Code": "AT", "Name": "Austria", "Colours": [
+            {"colour": "red", "hex": "#c8122e", "percent": 66.0},
+            {"colour": "white", "hex": "#fafbfb", "percent": 34.0}], "Continent": "Europe"},
+        {"Code": "AZ", "Name": "Azerbaijan", "Colours": [
+            {"colour": "green", "hex": "#3f9c35", "percent": 33.0},
+            {"colour": "blue", "hex": "#00b9e4", "percent": 33.0},
+            {"colour": "red", "hex": "#ed2839", "percent": 32.0},
+            {"colour": "white", "hex": "#fffcfc", "percent": 2.0}], "Continent": "Asia"},
+        {"Code": "BS", "Name": "Bahamas", "Colours": [
+            {"colour": "blue", "hex": "#00778b", "percent": 56.7},
+            {"colour": "yellow", "hex": "#ffc72c", "percent": 21.9},
+            {"colour": "black", "hex": "#010307", "percent": 21.4}], "Continent": "North America"},
+        {"Code": "BH", "Name": "Bahrain", "Colours": [
+            {"colour": "red", "hex": "#ce1226", "percent": 67.4},
+            {"colour": "white", "hex": "#ffffff", "percent": 32.6}], "Continent": "Asia"},
+        {"Code": "BD", "Name": "Bangladesh", "Colours": [
+            {"colour": "green", "hex": "#006a4e", "percent": 79.2},
+            {"colour": "red", "hex": "#f42a41", "percent": 20.8}], "Continent": "Asia"},
+        {"Code": "BB", "Name": "Barbados", "Colours": [
+            {"colour": "blue", "hex": "#02267f", "percent": 66.7},
+            {"colour": "yellow", "hex": "#fdc626", "percent": 29.2},
+            {"colour": "black", "hex": "#050300", "percent": 3.2}], "Continent": "North America"},
+        {"Code": "BY", "Name": "Belarus", "Colours": [
+            {"colour": "red", "hex": "#ce1720", "percent": 63.6},
+            {"colour": "green", "hex": "#007c30", "percent": 29.2},
+            {"colour": "white", "hex": "#fceff0", "percent": 7.2}], "Continent": "Europe"},
+        {"Code": "BE", "Name": "Belgium", "Colours": [
+            {"colour": "black", "hex": "#000000", "percent": 33.6},
+            {"colour": "red", "hex": "#ed2839", "percent": 33.6},
+            {"colour": "yellow", "hex": "#fae042", "percent": 32.8}], "Continent": "Europe"},
         {"Code": "BZ", "Name": "Belize"},
         {"Code": "BJ", "Name": "Benin"},
         {"Code": "BM", "Name": "Bermuda"},
@@ -245,10 +315,29 @@
         {"Code": "VN", "Name": "Viet Nam"},
         {"Code": "VG", "Name": "Virgin Islands, British"},
         {"Code": "VI", "Name": "Virgin Islands, U.S."},
-        {"Code": "WF", "Name": "Wallis and Futuna"},
-        {"Code": "EH", "Name": "Western Sahara"},
-        {"Code": "YE", "Name": "Yemen"},
-        {"Code": "ZM", "Name": "Zambia"},
-        {"Code": "ZW", "Name": "Zimbabwe"}
+        {"Code": "WF", "Name": "Wallis and Futuna", "Colours": [
+            {"colour": "red", "hex": "#ed2839", "percent": 85.8},
+            {"colour": "white", "hex": "#fefcfd", "percent": 8.9},
+            {"colour": "blue", "hex": "#092395", "percent": 5.3}], "Continent": "Oceania"},
+        {"Code": "EH", "Name": "Western Sahara", "Colours": [
+            {"colour": "green", "hex": "#007a3d", "percent": 29.4},
+            {"colour": "black", "hex": "#120300", "percent": 29.3},
+            {"colour": "white", "hex": "#ffffff", "percent": 23.6},
+            {"colour": "red", "hex": "#c4121a", "percent": 17.7}], "Continent": "Africa"},
+        {"Code": "YE", "Name": "Yemen", "Colours": [
+            {"colour": "white", "hex": "#ffffff", "percent": 34.0},
+            {"colour": "red", "hex": "#ce1226", "percent": 33.0},
+            {"colour": "black", "hex": "#000000", "percent": 33.0}], "Continent": "Asia"},
+        {"Code": "ZM", "Name": "Zambia", "Colours": [
+            {"colour": "green", "hex": "#188a01", "percent": 74.5},
+            {"colour": "orange", "hex": "#ef7d01", "percent": 10.0},
+            {"colour": "red", "hex": "#de200e", "percent": 7.8},
+            {"colour": "black", "hex": "#000000", "percent": 7.7}], "Continent": "Africa"},
+        {"Code": "ZW", "Name": "Zimbabwe", "Colours": [
+            {"colour": "green", "hex": "#016400", "percent": 26.1},
+            {"colour": "yellow", "hex": "#ffd200", "percent": 24.9},
+            {"colour": "red", "hex": "#d40000", "percent": 24.0},
+            {"colour": "white", "hex": "#fffefe", "percent": 13.8},
+            {"colour": "black", "hex": "#000903", "percent": 11.2}], "Continent": "Africa"}
     ]
 }
