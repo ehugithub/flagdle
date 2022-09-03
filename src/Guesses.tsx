@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactCountryFlag from "react-country-flag"
 import type { country, colorinfo } from './App'
 
 interface GuessesProps {
@@ -14,7 +15,11 @@ const Guesses = ({ guess, answer }: GuessesProps) => {
                     <div>Not guessed yet!</div>
                 </> :
                 <div className="w-full flex justify-start"> 
-                    <div className="border border-red-500 w-1/4">Guess:{guess.Code}</div>
+                    <div className="flex border border-red-500 w-1/4 flex-row">
+                        <div>Guess: {guess.Code}</div>
+                        <ReactCountryFlag countryCode={guess.Code} className="m-1 text-xl"/>
+                    </div>
+
                     <div className="flex justify-around border border-green-500 w-3/4">
                         {guess.Colours.map((color: colorinfo) =>
                             <div className="flex h-full border border-amber-700 w-1/6" style={{backgroundColor: `${(answer.Colours.filter((anscolor: colorinfo) => anscolor.colour === color.colour)).length > 0 ? "#29b007" : "#4e4f4d"}`}}>
