@@ -83,6 +83,7 @@ function App() {
       <Help
         settings={help}
         setSettings={setHelp}
+        biglist={biglist}
       />
 
     :

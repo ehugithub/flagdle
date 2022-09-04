@@ -91,7 +91,7 @@ const Input = ({ input, setInput, handleGuess, countries, won, handleNew, answer
                         </div>
                     )}
                 />
-                <button className="w-full rounded-full bg-green-500 hover:bg-green-600 focus:bg-green-700"
+                <button className="w-full py-1 rounded-full bg-green-500 hover:bg-green-600 focus:bg-green-700"
                         type='submit'
                         area-label='Make Guess'
                         onClick={() => {
